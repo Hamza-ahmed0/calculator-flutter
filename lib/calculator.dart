@@ -29,7 +29,7 @@ class _CalculatorState extends State<Calculator> {
               (Set<MaterialState> states) {
                 if (states.contains(MaterialState.pressed))
                   return Colors.blueGrey;
-                return null; // Use the component's default.
+                return Colors.black; // Use the component's default.
               },
             ),
             shape: MaterialStateProperty.all<RoundedRectangleBorder>(
